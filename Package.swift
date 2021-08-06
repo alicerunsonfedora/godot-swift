@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "godot-swift",
+    platforms: [.macOS(.v10_15), .iOS(.v14)],
     products: 
     [
         .plugin(    name: "GodotNativeScript",                      targets: ["GodotNativeScript"]),
